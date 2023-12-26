@@ -1,0 +1,9 @@
+.ud-sticky-bottom-ads {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+.td-a-rec-id-ud_footer_sticky_post_ad div {
+	margin-bottom: 0
+}

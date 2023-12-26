@@ -1,0 +1,100 @@
+.td-menu-background {
+	top: 0;
+}
+
+#pdpa-popup {
+	--pdpa--color--black: #333;
+	--pdpa--color--gray: #CCC;
+	--pdpa--font-size: 0.6875rem;
+
+	z-index: 1000;
+	background: #f4ede1;
+	color: var(--pdpa--color--black);
+	padding: 10px;
+	position: sticky;
+	top: 0;
+	display: none;
+}
+
+.pdpa-wrapper a {
+	color: var(--pdpa--color--black);
+	text-decoration: underline;
+}
+
+.close-pdpa-popup {
+	all: unset;
+	position: absolute;
+	top: -5px;
+	right: 0;
+	cursor: pointer;
+	font-size: 1.25rem;
+}
+
+#pdpa-popup.is-hide {
+	display: none;
+}
+
+#pdpa-popup.is-show {
+	display: block;
+}
+
+#pdpa-popup .wrapper {
+	position: relative;
+	padding-right: 20px;
+	margin-inline: auto;
+	width: min( 100%, 1100px );
+	display: grid;
+	grid-template-columns: 1fr auto;
+	grid-gap: 15px;
+	align-items: center;
+}
+
+.pdpa-title {
+	color: white;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+.pdpa-text {
+	font-size: var(--pdpa--font-size);
+	margin: 0;
+	padding: 0;
+	line-height: 1.48;
+}
+
+.pdpa-button {
+	padding: 0;
+	text-align: right;
+}
+
+.pdpa-btn {
+	text-align: center;
+	min-height: 30px;
+	line-height: 30px;
+	border: 1px solid var(--pdpa--color--gray);
+	border-radius: 30px;
+	text-decoration: none;
+	color: var(--pdpa--color--black);
+	font-size: var(--pdpa--font-size);
+	padding: 0 20px;
+}
+
+.pdpa-btn-1 {
+	background: var(--pdpa--color--black);
+	color: white;
+	display: inline-block;
+	transition: all 0.5s ease;
+}
+
+.pdpa-btn-1:hover,
+.pdpa-btn-1:active {
+	background: var(--pdpa--color--gray);
+	color: var(--pdpa--color--black);
+}
+
+@media( min-width:768px ) {
+	#pdpa-popup {
+		--pdpa--font-size: 1rem;
+	}
+}

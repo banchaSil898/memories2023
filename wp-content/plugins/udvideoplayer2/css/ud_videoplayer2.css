@@ -1,0 +1,47 @@
+/* 
+    Created on : Apr 6, 2017, 12:36:45 AM
+    Author     : Unixdev
+*/
+.ud-video-wrapper{
+    position: relative;
+    padding-bottom: 56.2%;
+    height: 0;
+}
+.ud-video-wrapper .ud_content_iframe_custom{
+/*    height: 390px;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/*@media (max-width: 1140px) {
+    .ud_content_iframe_custom{
+        height: 345px;
+    }
+}
+
+@media (max-width: 1018px) {
+    .ud_content_iframe_custom{
+        height: 264px;
+    }
+}
+
+@media (max-width: 1018px) {
+    .ud_content_iframe_custom{
+        height: 264px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ud_content_iframe_custom{
+        height: 400px;
+    }
+}
+
+@media (max-width: 476px) {
+    .ud_content_iframe_custom{
+        height: 250px;
+    }
+}*/
