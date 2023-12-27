@@ -13,7 +13,7 @@
   .main-container{
     height: 100%;
     display: grid;
-    grid-template-rows: 50% 50%;
+    grid-template-rows: 60%;
     grid-template-columns: minmax(43EM, 50%);
     position: relative;
   }
@@ -40,8 +40,6 @@
   .detail, .button-line{
     font-size: .8EM;
     width: 37EM;
-    margin-bottom: 1.5EM;
-    margin-right: .7EM;
     color: #212121;
     /* Light */
     font-family: Kanit;
@@ -49,6 +47,9 @@
     font-style: normal;
     font-weight: 300;
     line-height: normal;
+  }
+  .detail{
+    margin: 2.25EM 0.7EM 2.25EM 0;
   }
   .button{
     text-align: center;
@@ -91,11 +92,6 @@
     height: auto;
     left: 140px;
   }
-  @media (width <= 1024px){
-    .main-container{
-      grid-template-rows: 60% 40%;
-    }
-  }
   @media (orientation: portrait), screen and (width < 921px){
     .main-container{
       display: flex;
@@ -132,8 +128,10 @@
     }
     .detail, .button-line{
       width: 100%;
-      margin: 0;
       justify-content: center;
+    }
+    .detail {
+      margin: 0.625EM 0;
     }
     .img-cover{
       display: flex;
@@ -156,19 +154,15 @@
 </style>
 <body style="background:url('https://www.matichon.co.th/wp-content/uploads/2023/12/year-in-review-2023-bg.png') no-repeat fixed center;background-size: cover;">
   <div class="img-watermark">
-    <img src="https://www.matichon.co.th/wp-content/uploads/2023/12/water_mark.png" width="100%" height="auto" alt="">
+    <img src="https://www.matichon.co.th/wp-content/uploads/2023/12/water_mark.png" style="opacity:0.6" width="100%" height="auto" alt="">
   </div>
   <div class="main-container">
     <div class="container ">
       <div class="contain flex-align-bottom">
-        <div><img src="https://www.matichon.co.th/wp-content/uploads/2023/12/year_in_review_2023_title.png" alt="" style="max-width:100%;height:auto;"></div>
+        <div><img src="https://www.matichon.co.th/wp-content/uploads/2023/12/year-in-review-2023-label.png" alt="" style="max-width:100%;height:auto;"></div>
         <div class="detail" style="text-shadow: 1px 1px white;">มติชนมอบของขวัญแก่นักอ่าน ในวาระก้าวเข้าสู่ปีที่ 47 แจกฟรี E-book</br>
         มติชนบันทึกประเทศไทย 2566 หนังสือที่รวบรวมประเด็นข่าวเหตุการณ์สำคัญที่เป็นจุดเปลี่ยน</br>
         ของประเทศไทย เพื่อให้ทบทวนเรื่องราวที่ผ่านมา และพร้อมที่จะก้าวต่อไปในปีข้างหน้า</div>
-      </div>
-    </div>
-    <div class="container">
-      <div class="contain">
         <div class="button-line">
           <a href="" class="red-background">
             <div class="button">
@@ -181,6 +175,11 @@
             </div>
           </a>
         </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="contain">
+        
       </div>
     </div>
     <div class="img-cover">
