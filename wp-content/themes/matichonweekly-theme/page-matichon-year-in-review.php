@@ -164,12 +164,12 @@
         มติชนบันทึกประเทศไทย 2566 หนังสือที่รวบรวมประเด็นข่าวเหตุการณ์สำคัญที่เป็นจุดเปลี่ยน</br>
         ของประเทศไทย เพื่อให้ทบทวนเรื่องราวที่ผ่านมา และพร้อมที่จะก้าวต่อไปในปีข้างหน้า</div>
         <div class="button-line">
-          <a href="" class="red-background">
+          <a href="http://localhost/matichonweekly/matichon-year-in-review-frame-e-book-register" class="red-background" targer="_self">
             <div class="button">
               ดาวน์โหลด E-Book ฟรี
             </div>
           </a>
-          <a href="" class="black-background">
+          <a href="https://www.matichon.co.th/home" class="black-background" target="_self">
             <div class="button">
               เข้าสู่เว็บมติชน
             </div>
