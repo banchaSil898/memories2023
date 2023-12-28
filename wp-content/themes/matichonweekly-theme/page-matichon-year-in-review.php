@@ -78,7 +78,6 @@
     left: 50vw;
   }
   #year_in_review_2023 .img-cover {
-    z-index: -1;
     & img{
       height: auto;
       width: 100%
@@ -153,12 +152,12 @@
   }
 
 </style>
-<body id="year_in_review_2023" style="background:url('https://www.matichon.co.th/wp-content/uploads/2023/12/year-in-review-2023-bg.png') no-repeat fixed center;background-size: cover;">
+<div id="year_in_review_2023" style="background:url('https://www.matichon.co.th/wp-content/uploads/2023/12/year-in-review-2023-bg.png') no-repeat fixed center;background-size: cover;">
   <div class="img-watermark">
     <img src="https://www.matichon.co.th/wp-content/uploads/2023/12/water_mark.png" style="opacity:0.6" width="100%" height="auto" alt="">
   </div>
   <div class="main-container">
-    <div class="container">
+    <div class="container" style="z-index: 2;">
       <div class="contain flex-align-bottom">
         <div><img src="https://www.matichon.co.th/wp-content/uploads/2023/12/year-in-review-2023-label.png" alt="" style="max-width:100%;height:auto;"></div>
         <div class="detail" style="text-shadow: 1px 1px white;">มติชนมอบของขวัญแก่นักอ่าน ในวาระก้าวเข้าสู่ปีที่ 47 แจกฟรี E-book</br>
@@ -182,4 +181,4 @@
       <img src="https://www.matichon.co.th/wp-content/uploads/2023/12/year-in-review-2023-cover.png" alt="" hieght="100%">
     </div>
   </div>
-</body>
+</div>

@@ -12,7 +12,6 @@
     margin: 0;
   }
 </style>
-<body id="iframe-book-for-gift">
-  
-</body>
-<iframe src="https://poll.matichon.co.th/bookforgift/" frameborder="0"></iframe>
+<div id="iframe-book-for-gift">
+  <iframe src="https://poll.matichon.co.th/bookforgift/" frameborder="0"></iframe>
+</div>
