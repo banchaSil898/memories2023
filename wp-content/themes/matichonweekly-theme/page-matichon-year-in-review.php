@@ -14,7 +14,7 @@
     height: 100%;
     display: grid;
     grid-template-rows: 60%;
-    grid-template-columns: minmax(43EM, 50%);
+    grid-template-columns: minmax(43em, 50%);
     position: relative;
   }
   #year_in_review_2023 .main-container>div{
@@ -28,7 +28,7 @@
     align-items: flex-end;
     flex-direction: column;
     width: 100%;
-    margin: 1EM;
+    margin: 1em;
   }
   #year_in_review_2023 .contain.flex-align-bottom{
     justify-content: flex-end;
@@ -38,8 +38,8 @@
     text-align: left;
   }
   #year_in_review_2023 .detail, .button-line{
-    font-size: .8EM;
-    width: 37EM;
+    font-size: .8em;
+    width: 37em;
     color: #212121;
     /* Light */
     font-family: Kanit;
@@ -49,7 +49,7 @@
     line-height: normal;
   }
   #year_in_review_2023 .detail{
-    margin: 2.25EM 0.7EM 2.25EM 0;
+    margin: 2.25em 0.7em 2.25em 0;
   }
   #year_in_review_2023 .button{
     text-align: center;
@@ -61,7 +61,7 @@
     padding: 12px 32px;
     align-items: center;
     gap: 18px;
-    margin: 0 .5EM;
+    margin: 0 .5em;
     border-radius: 120px;
   }
   #year_in_review_2023 .black-background{
@@ -102,7 +102,7 @@
       align-items: center;
     }
     #year_in_review_2023 .container .contain  a {
-      padding: 24px 48px;
+      padding: 12px 24px;
     }
     #year_in_review_2023 .contain{
       & div{
@@ -113,7 +113,7 @@
         }
       }
       & .detail, .button-line{
-        font-size: 2EM;
+        font-size: 1em;
       }
       & .button-line{
         flex-direction: column;
@@ -131,14 +131,14 @@
       justify-content: center;
     }
     #year_in_review_2023 .detail {
-      margin: 0.625EM 0;
+      margin: 0.625em 0;
     }
     #year_in_review_2023 .img-cover{
       display: flex;
       position: static;
       justify-content: center;
       width: 100%;
-      margin-top:3EM;
+      margin-top:3em;
       & img{
         height: auto;
         width: 90%;
@@ -147,7 +147,7 @@
   }
   @media (width<= 360px) and (orientation: portrait){
     .detail, .button-line{
-      font-size: .7EM !important;
+      font-size: .7em !important;
     }
   }
 
