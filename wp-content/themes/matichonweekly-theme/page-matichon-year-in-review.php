@@ -178,7 +178,7 @@
       </div>
     </div>
     <div class="img-cover">
-      <img src="https://www.matichon.co.th/wp-content/uploads/2023/12/year-in-review-2023-cover.png" alt="" hieght="100%">
+      <img src="https://www.matichon.co.th/wp-content/uploads/2024/01/year-in-review-2023-cover.png" alt="" hieght="100%">
     </div>
   </div>
 </div>
