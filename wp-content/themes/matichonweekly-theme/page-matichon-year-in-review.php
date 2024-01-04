@@ -4,8 +4,7 @@
 <link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet" />
 <style>
   #year_in_review_2023{
-    margin: 0;
-    padding: 0;
+    margin: -0.5em;
     width:100vw;
     height:100vh;
     overflow: hidden;
@@ -66,22 +65,18 @@
   }
   #year_in_review_2023 .black-background{
     background: #212121;
-    box-shadow: 0px 8px 9.9px 0px #D9D9D9;
   }
   #year_in_review_2023 .red-background{
     background: #EB1C24;
-    box-shadow: 0px 8px 9.9px 0px rgba(235, 28, 36, 0.19);
   }
   #year_in_review_2023 .img-cover{
     position: absolute;
     top: calc(50% - 350px);
     left: 50vw;
   }
-  #year_in_review_2023 .img-cover {
-    & img{
-      height: auto;
-      width: 100%
-    }
+  #year_in_review_2023 .img-cover img{
+    height: auto;
+    width: 100%
   }
   #year_in_review_2023 .img-watermark{
     position: absolute;
@@ -103,25 +98,21 @@
     }
     #year_in_review_2023 .container .contain  a {
       padding: 12px 24px;
+      margin: 12px 0;
     }
-    #year_in_review_2023 .contain{
-      & div{
-        width:100%;
-        text-align: center;
-        & img{
-          width: 100%;
-        }
-      }
-      & .detail, .button-line{
-        font-size: 1em;
-      }
-      & .button-line{
-        flex-direction: column;
-        & a{
-
-          margin: 12px 0;
-        }
-      }
+    #year_in_review_2023 .contain div{
+      width:100%;
+      text-align: center;
+    }
+    #year_in_review_2023 .contain div img{
+      width: 100%;
+    }
+    #year_in_review_2023 .contain .detail
+    , #year_in_review_2023 .contain .button-line{
+      font-size: 1em;
+    }
+    #year_in_review_2023 .contain .button-line{
+      flex-direction: column;
     }
     #year_in_review_2023 .img-watermark{
       display:none;
@@ -139,10 +130,10 @@
       justify-content: center;
       width: 100%;
       margin-top:3em;
-      & img{
-        height: auto;
-        width: 90%;
-      }
+    }
+    #year_in_review_2023 .img-cover img{
+      height: auto;
+      width: 90%;
     }
   }
   @media (width<= 360px) and (orientation: portrait){
@@ -152,14 +143,14 @@
   }
 
 </style>
-<div id="year_in_review_2023" style="background:url('https://www.matichon.co.th/wp-content/uploads/2023/12/year-in-review-2023-bg.png') no-repeat fixed center;background-size: cover;">
+<div id="year_in_review_2023" style="background:url('<?= get_site_url() ?>/yearinreview2023-bg') no-repeat fixed center;background-size: cover;">
   <div class="img-watermark">
-    <img src="https://www.matichon.co.th/wp-content/uploads/2023/12/water_mark.png" style="opacity:0.6" width="100%" height="auto" alt="">
+    <img src="<?= get_site_url() ?>/water_mark.png" style="opacity:0.6" width="100%" height="auto" alt="">
   </div>
   <div class="main-container">
     <div class="container" style="z-index: 2;">
       <div class="contain flex-align-bottom">
-        <div><img src="https://www.matichon.co.th/wp-content/uploads/2023/12/year-in-review-2023-label.png" alt="" style="max-width:100%;height:auto;"></div>
+        <div><img src="<?= get_site_url() ?>/yearinreview2023-title" alt="" style="max-width:100%;height:auto;"></div>
         <div class="detail" style="text-shadow: 1px 1px white;">มติชนมอบของขวัญแก่นักอ่าน ในวาระก้าวเข้าสู่ปีที่ 47 แจกฟรี E-book</br>
         มติชนบันทึกประเทศไทย 2566 หนังสือที่รวบรวมประเด็นข่าวเหตุการณ์สำคัญที่เป็นจุดเปลี่ยน</br>
         ของประเทศไทย เพื่อให้ทบทวนเรื่องราวที่ผ่านมา และพร้อมที่จะก้าวต่อไปในปีข้างหน้า</div>
@@ -178,7 +169,7 @@
       </div>
     </div>
     <div class="img-cover">
-      <img src="https://www.matichon.co.th/wp-content/uploads/2024/01/year-in-review-2023-cover.png" alt="" hieght="100%">
+      <img src="<?= get_site_url() ?>/yearinreview2023-cover" alt="" hieght="100%">
     </div>
   </div>
 </div>
