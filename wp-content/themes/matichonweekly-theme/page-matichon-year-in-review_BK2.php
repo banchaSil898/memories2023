@@ -11,13 +11,19 @@
   }
   #year_in_review_2023 .main-container{
     height: 100%;
-    display: grid;
-    grid-template-rows: 60%;
-    grid-template-columns: minmax(43em, 50%);
+    display: flex;
     position: relative;
   }
+  #year_in_review_2023 .main-container .content{
+    position: absolute;
+    width:100%;
+    height: 40%;
+    top: 246px;
+    border: solid #4F4 1px;
+  }
   #year_in_review_2023 .main-container>div{
-    /* border: solid #F44 1px; */
+    width:50%;
+    border: solid #F44 1px;
   }
   #year_in_review_2023 .container{
     display: flex;
@@ -145,13 +151,25 @@
 </style>
 <div id="year_in_review_2023" style="background:url('<?= get_site_url() ?>/yearinreview2023-bg') no-repeat fixed center;background-size: cover;">
   <div class="img-watermark">
-    <img src="<?= get_site_url() ?>/yearinreview2023-watermark" style="opacity:0.6" width="100%" height="auto" alt="">
+    <img src="<?= get_site_url() ?>/water_mark.png" style="opacity:0.6" width="100%" height="auto" alt="">
   </div>
   <div class="main-container">
-    <div class="container" style="z-index: 2;">
+    <div class="container">
+      <div class="content">
+
+      </div>
+    </div>
+    <div class="container second"></div>
+    
+  </div>
+</div>
+
+<!--
+  <div class="main-container">
+    <div class="container">
       <div class="contain flex-align-bottom">
         <div><img src="<?= get_site_url() ?>/yearinreview2023-title" alt="" style="max-width:100%;height:auto;"></div>
-        <div class="detail" style="color: white;">มติชนมอบของขวัญแก่นักอ่าน ในวาระก้าวเข้าสู่ปีที่ 47 แจกฟรี E-book</br>
+        <div class="detail" style="text-shadow: 1px 1px white;">มติชนมอบของขวัญแก่นักอ่าน ในวาระก้าวเข้าสู่ปีที่ 47 แจกฟรี E-book</br>
         มติชนบันทึกประเทศไทย 2566 หนังสือที่รวบรวมประเด็นข่าวเหตุการณ์สำคัญที่เป็นจุดเปลี่ยน</br>
         ของประเทศไทย เพื่อให้ทบทวนเรื่องราวที่ผ่านมา และพร้อมที่จะก้าวต่อไปในปีข้างหน้า</div>
         <div class="button-line">
@@ -172,4 +190,4 @@
       <img src="<?= get_site_url() ?>/yearinreview2023-cover" alt="" hieght="100%">
     </div>
   </div>
-</div>
+ -->
